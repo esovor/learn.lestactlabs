@@ -1,4 +1,4 @@
 <div>
-    <h2>{{$title}}</h2>
-    <p>{{$grades}}</p>
+    <h2><a href="#">{{$lTitle}}</a></h2>
+    <p>{{$lDescription}}</p>
 </div>
