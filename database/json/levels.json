@@ -1,0 +1,6 @@
+[
+    {"sequence_number": 1, "level_id": "primary", "name": "Primary", "description": "Basic 1 to 6"},
+    {"sequence_number": 2, "level_id": "junior-high", "name": "Junior High", "description": "Basic 7 to 9"},
+    {"sequence_number": 3, "level_id": "secondary", "name": "Senior High", "description": "SHS 1 to 3"},
+    {"sequence_number": 4, "level_id": "post-secondary", "name": "Senior High + ", "description": "Post Secondary and College"}
+]

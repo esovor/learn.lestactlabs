@@ -51,7 +51,7 @@
             <div>
                 <h1>Company</h1>
                 <ul>
-                    <li><a href="{{ route('about') }}">About Us</a></li>
+                    <li><a href="{{ route('home.about') }}">About Us</a></li>
                     <li><a href="#">Contact Us</a></li>
                     <li><a href="#">Leadership</a></li>
                     <li><a href="#">Edutorial Standards</a></li>

@@ -3,17 +3,33 @@
 
 @section('content')
 
-    <section class="learnHeader">
+    <section>
         <h1>Learn & Revise</h1>
         <p>Here you can find resources to help you learn and revise with Lestacklabs Academy for primary, secondary and post-secondary students.</p>
     </section>
 
-    <section class="learnLevel">
-        <x-levels l-title="Primary" l-description="Basic 4 to 6" />
-        <x-levels l-title="Junior High School" l-description="Basic 7 to 9" />
-        <x-levels l-title="Senior High School" l-description="Basic 10 to 12" />
-        <x-levels l-title="Post Secondary" l-description="Secondary +" />
-        <x-levels l-title="All Subjects" l-description="A-Z of Resources" />
+    <section>
+
+        <section>
+
+            <div>
+                @foreach($levels as $level)
+                    <di>
+                        <h2><a href="{{ route('learn.classes', $level->level_id) }}">{{$level->name}}</a></h2>
+                        <p>{{$level->description}}</p>
+                    </di>
+                @endforeach
+                <di>
+                    <h2><a href="#">All Subjects</a></h2>
+                    <p>A-Z Subjects</p>
+                </di>
+
+            </div>
+
+        </section>
+
+
+
     </section>
 
 

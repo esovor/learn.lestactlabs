@@ -1,0 +1,14 @@
+[
+    {"sequence_number": 1, "class_level_id": "basic-1", "level_id": "primary", "name": "Basic 1", "description": "First level of Lover Primary"},
+    {"sequence_number": 2, "class_level_id": "basic-2", "level_id": "primary", "name": "Basic 2", "description": "Second level of Lover Primary"},
+    {"sequence_number": 3, "class_level_id": "basic-3", "level_id": "primary", "name": "Basic 3", "description": "Third level of Lover Primary"},
+    {"sequence_number": 4, "class_level_id": "basic-4", "level_id": "primary", "name": "Basic 4", "description": "First level of Upper Primary"},
+    {"sequence_number": 5, "class_level_id": "basic-5", "level_id": "primary", "name": "Basic 5", "description": "Second level of Upper Primary"},
+    {"sequence_number": 6, "class_level_id": "basic-6", "level_id": "primary", "name": "Basic 6", "description": "Third level of Upper Primary"},
+    {"sequence_number": 7, "class_level_id": "basic-7", "level_id": "junior-high", "name": "Basic 7", "description": "First level of Junior High"},
+    {"sequence_number": 8, "class_level_id": "basic-8", "level_id": "junior-high", "name": "Basic 8", "description": "Second level of Junior High"},
+    {"sequence_number": 9, "class_level_id": "basic-9", "level_id": "junior-high", "name": "Basic 9", "description": "Third level of Junior High"},
+    {"sequence_number": 10, "class_level_id": "shs-1", "level_id": "secondary", "name": "Senior High 1", "description": "First level of Senior High"},
+    {"sequence_number": 11, "class_level_id": "shs-2", "level_id": "secondary", "name": "Senior High 2", "description": "Second level of Senior High"},
+    {"sequence_number": 12, "class_level_id": "shs-3", "level_id": "secondary", "name": "Senior High 3", "description": "Third level of Senior High"}
+]

@@ -7,12 +7,25 @@
     <h1>Welcome to LeStackLabs</h1>
 
 
-    <section class="homeLevel">
-        <x-levels l-title="Primary" l-description="Basic 4 to 6" />
-        <x-levels l-title="Junior High School" l-description="Basic 7 to 9" />
-        <x-levels l-title="Senior High School" l-description="Basic 10 to 12" />
-        <x-levels l-title="Teachers" l-description="Teaching Resources" />
+    <section>
+
+        <div>
+            @foreach($levels as $level)
+                <di>
+                    <h2>{{$level->name}}</h2>
+                    <p>{{$level->description}}</p>
+                </di>
+            @endforeach
+                <di>
+                    <h2>Teachers</h2>
+                    <p>A-Z Teachers Resources</p>
+                </di>
+
+        </div>
+
     </section>
+
+
 
     <section>
         <h1>Learn anytime with Us</h1>
@@ -26,7 +39,7 @@
         <p>We create meaningful learning experience for people at all levels.
             Our mission is to unlock the full potential of each learner in Ghana.</p>
 
-        <a href="{{ route('about') }}">Read more</a>
+{{--        <a href="{{ route('about') }}">Read more</a>--}}
 
 
     </section>

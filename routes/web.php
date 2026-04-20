@@ -1,24 +1,30 @@
 <?php
 
+
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LearnController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('home.index');
-})->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('home.index');
+Route::get('/about', [HomeController::class, 'about'])->name('home.about');
+Route::get('/resource', [HomeController::class, 'resources'])->name('resource');
+Route::get('/tutorials', [HomeController::class, 'tutorials'])->name('tutorials');
 
 
-Route::get('/about', function () {
-    return view('home.about');
-})->name('about');
+Route::get('/learn', [LearnController::class, 'index'])->name('learn.index');
+Route::get('/learn/{level}', [LearnController::class, 'showClasses'])->name('learn.classes');
+Route::get('/learn/{level}/{class}', [LearnController::class, 'showSubjects'])->name('learn.subjects');
 
-Route::get('/resource', function () {
-    return view('home.resources');
-})->name('resource');
 
-Route::get('/learn', function () {
-    return view('home.learn');
-})->name('learn');
 
-Route::get('/tutorials', function () {
-    return view('home.tutorials');
-})->name('tutorials');
+
+
+
+
+
+
+
+
+
+
+
